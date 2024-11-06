@@ -1,0 +1,14 @@
+<?php
+
+namespace App\Http\Controllers\admin;
+
+use Illuminate\Http\Request;
+use App\Http\Controllers\Controller;
+
+class Admin extends Controller
+{
+    public function admin()
+    {
+    return view('admin/dashboard');
+    }
+}
